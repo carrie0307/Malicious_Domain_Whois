@@ -1,0 +1,216 @@
+# coding:utf-8
+from __future__ import division
+from bs4 import BeautifulSoup
+from time import sleep
+import urllib2
+import MySQLdb
+import threading
+import Queue
+import jieba.analyse
+import word
+import fenci
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+
+lottery_words = open('../fenci/fenci_res/words/赌博words.txt', 'r').readlines()
+sexy_words = open('../fenci/fenci_res/words/色情words.txt', 'r').readlines()
+words_list = [lottery_words, sexy_words]
+
+
+def download_htmlpage(domain_q, content_q, timeout):
+    domain = domain_q.get(timeout=timeout)
+    url = 'http://' + domain
+    print url
+    try:
+        res = urllib2.urlopen(url)
+        html = res.read()
+        soup = BeautifulSoup(html, 'lxml')
+        content = word.pre_deal(str(soup))
+        if content == '':
+            content_q.put(['-8', domain, False])
+            return
+        content_q.put([content, domain, True])
+        return
+    except Exception, e:
+        message = str(e)
+        if message == '<urlopen error [Errno -5] No address associated with hostname>':
+            print '域名无关联地址 ...'
+            content = '-1'
+        elif message == '<urlopen error [Errno 22] Invalid argument>':
+            print '域名错误 ... '
+            content = '-2'
+        elif message == '<urlopen error timed out>':
+            print '请求超时 ...'
+            content = '-3'
+        elif message == 'HTTP Error 400: Bad Request':
+            print 'HTTP 400错误 ...'
+            content = '-4'
+        elif message == 'HTTP Error 502: Bad Gateway':
+            print 'HTTP 502错误 ...'
+            content = '-5'
+        elif message == 'timed out':
+            print '请求超时 ...'
+            content = '-3'
+        elif message == '<urlopen error [Errno -3] Temporary failure in name resolution>':
+            print 'Wrong ...'
+            content = '-6'
+        else:
+            content = '-7'
+        # content_q.put(content, domain, False)
+        content_q.put([content, domain, False])
+        return
+
+
+def judge_type(content_q, temp_q, res_q, timeout):
+    content, domain, flag = content_q.get(timeout=timeout)
+    res = []
+    if flag == True:
+        state = '1'
+        keywords = jieba.analyse.extract_tags(content, topK=5)
+        keywords = str(','.join(keywords))
+        length = len(fenci.cut_string(content))
+        for i in range(len(words_list)):
+            words = words_list[i]
+            num = 0
+            count = 0
+            theme_words = []
+            for item in words:
+                item = item.strip()
+                if item in content:
+                    theme_words.append(item)
+                    num = num + content.count(item)
+                    count = count + 1
+            rate = num / length
+            themewords = ','.join(theme_words)
+            res.append((count, rate, themewords))
+            print 'count: ' + str(count) + '    rate: ' + str(rate) + ' ' + themewords
+        # 赌博 0/色情 1, res[][0]: count, res[][1]: rate, res[][2]: themewords
+        if res[0][0] > res[1][0]:
+            temp_q.put([domain, state, 0, keywords, res[0][0], res[0][1], res[0][2]])
+        else:
+            temp_q.put([domain, state, 1, keywords, res[1][0], res[1][1], res[1][2]])
+    else:
+        state = content
+        keywords = '--'
+        themewords = '--'
+        grade = 0
+        area = '--'
+        res_q.put([domain, state, keywords, themewords, grade, area])
+
+
+# domain, state, ttype, keywords, count, rate, themewords
+def judge_grade(temp_q, res_q):
+   domain, state, ttype, keywords, count, rate, themewords = temp_q.get()
+    types = ['赌博', '色情']
+    if count > 4 and rate > 0.1:
+        grade = 2
+        area = types[ttype]
+        # 确定是博彩/色情网站，存储相应分数和themewords
+    elif count > 4:
+        grade = 1
+        area = types[ttype]
+        # 可能博彩/色情网站，存储相应分数和themewords
+    elif rate > 0.1:
+        grade = 1
+        area = types[ttype]
+        # 可能博彩/色情网站，存储相应分数和themewords
+    else:
+        grade = 0
+        area = '--'
+        if themewords == '':
+            themewords = '--'
+    res_q.put([domain, state, keywords, themewords, grade, area])
+
+
+def deal_with_html(content_q, temp_q, res_q, timeout):
+    while True:
+        judge_type(content_q, temp_q, res_q, timeout)
+        judge_grade(temp_q, res_q)
+
+
+def select_domain():
+    conn = MySQLdb.connect("172.26.253.3", "root", "platform", "malicious_domain_sys")
+    cur = conn.cursor()
+    # SQL = "SELECT domain FROM domain_index WHERE malicious_info_flag NOT LIKE '_1_'"
+    SQL = "SELECT domain FROM domain_index, malicious_info WHERE malicious_info.state = '0'"
+    cur.execute(SQL)
+    result = cur.fetchall()
+    domains = []
+    for item in result:
+        domains.append(item[0])
+    print "domains got !\n"
+    print domains
+    return domains
+
+
+#将查询结果送入数据库
+def add_to_db(res_q, commit_handle, timeout):
+    while True:
+        try:
+            domain, state, keywords, themewords, grade, area = res_q.get(timeout=timeout)
+            commit_handle(domain, state, keywords, themewords, grade, area)
+        except Queue.Empty:
+            return
+        # except OperationalError, e:
+            #pass
+            # continue
+
+
+# conn = MySQLdb.connect('172.26.253.3', 'root', 'platform', 'malicious_domain_sys', charset = 'utf8')
+# cur = conn.cursor()
+# current_times = 0
+def commit_theme_grade_area(domain, state, keywords, themewords, grade, area):
+    print domain + '    ' + state + '   ' + keywords + '    ' + themewords + '  ' + str(grade) + '   ' + area
+    # global conn, cur, current_times
+    # cur.execute("REPLACE INTO malicious_info(state, key_word, theme, judge_grade, area) VALUES('" + state + "' , '" + keywords + "', '" + themewords + "' , '" + str(grade) + "', '" + area + "') WHERE malicious_info.ID = %s" % str(hash(domain)))
+    # cur.execute("UPDATE domain_index SET malicious_info_flag = malicious_info_flag + 10 where ID = %s" % str(hash(domain)))
+    # conn.commit()
+    print "Keywords saved succeed!"
+
+
+def domain_selecter(domain_q, select_handle):
+    domains = ['124808', '175.41.30.34', '175.41.30.66', '45.35.75.210', '480849', '480894', '5577tk.com', '568vn.com', '56guanjia.com', '5700ka.com', '5713paigou.com', '5733msc.com']
+    for item in domains:
+                domain_q.put(item)
+    '''
+    while True:
+        if domain_queue.empty():
+            domains = select_handle()
+            for item in domains:
+                domain_queue.put(item)
+        else:
+            sleep(1)
+    '''
+
+
+def start_evrything(select_handle, html_handle, commit_handle, thread_num=5):
+    domain_q = Queue.Queue()
+    content_q = Queue.Queue()
+    temp_q = Queue.Queue()
+    res_q = Queue.Queue()
+
+    selecet_fun=lambda :domain_selecter(domain_q,select_handle)
+    html_download_fun=lambda :download_htmlpage(domain_q,content_q, timeout = 100)
+    html_parse_fun=lambda :deal_with_html(content_q, temp_q, res_q, timeout = 300)
+    commit_fun=lambda :add_to_db(res_q,commit_handle, timeout = 500)
+
+    select_td = threading.Thread(target=selecet_fun)
+    commit_td = threading.Thread(target=commit_fun)
+    html_parse_td = threading.Thread(target=html_parse_fun)
+    html_download_td = []
+    for _ in range(5):
+        html_download_td.append(threading.Thread(target=html_download_fun))
+    select_td.start()
+    for td in html_download_td:
+        td.start()
+    print 'wainting ...'
+    sleep(20)
+    html_parse_td.start()
+    commit_td.start()
+    commit_td.join()
+
+if __name__ == '__main__':
+    start_evrything(select_domain, deal_with_html, commit_theme_grade_area, thread_num=5)
+

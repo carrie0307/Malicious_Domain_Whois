@@ -1,0 +1,148 @@
+# -*- coding: UTF-8 -*-
+'''
+	功能： 
+		1.获取源代码存储为n.txt, 用于 fenci.py 时直接测试用;
+		2.对源代码预处理提取中文内容， 用于 tfidf_top.py 中提取分词使用;
+'''
+import urllib2
+from bs4 import BeautifulSoup
+import re
+import socket
+socket.setdefaulttimeout(5)
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+
+def get_html(url):
+	try:
+		html = urllib2.urlopen(url).read()
+	except socket.timeout, e:
+		print url
+		print "socket timeout"
+		return ''
+	except Exception, e:
+		print url
+		print e.message
+		return ''
+	return html
+
+
+def get_title(soup):
+	if soup.title != None:
+		if soup.title.string != None:
+			title = soup.title.string
+	else:
+		title = ''
+	return title
+
+
+def get_description(soup):
+	description = soup.find(attrs={"name": "description"})
+	if description == None:
+		description = ''
+	else:
+		description = description['content']
+	return description
+
+
+def get_keywords(soup):
+	keywords = soup.find(attrs={"name": "keywords"})
+	if keywords == None:
+		keywords = ''
+	else:
+		keywords = keywords['content']
+	return keywords
+
+
+def get_a_contents(soup):
+	a_content = ''
+	flag = False
+	for a in soup.find_all('a'):
+		a_string = a.string
+		if a_string != None:
+			flag = True
+			a_content = a_content + a_string + '\n'
+	if not flag:
+		a_content = ''
+	return a_content
+
+
+def pre_deal(string):
+	string = re.sub("[\A-Za-z0-9_\s+\.\!\/_,$%^*(+\"\']".decode("utf8"), "".decode("utf8"),string)
+	string = re.sub("[+——！，。？、~@#￥%……&*（）：“”;【】?―:　-]".decode("utf8"), "".decode("utf8"),string)
+	string = re.sub("[\{\}<>=)«|\[\]  ]".decode("utf8"), "".decode("utf8"),string)
+	return string
+
+
+def words_saved(domain, html):
+	string = ''
+	soup = BeautifulSoup(html, 'lxml')
+	# 提取<title>内容
+	title = get_title(soup)
+	if title != '':
+		string = string + title + '\n'
+	# 提取<meta>中的description和keywords
+	description = get_description(soup)
+	if description != '':
+		string = string + description + '\n'
+	keywords = get_keywords(soup)
+	if keywords != '':
+		string = string + keywords + '\n'
+	a_content = get_a_contents(soup)
+	if a_content != '':
+		string = string + a_content
+	if string != '':
+		string = prd_deas(string)
+		w_file = open('../fenci/code/' + domain.strip() + '.txt', 'w')
+		w_file.write(string)
+		w_file.close()
+		print 'over ...\n'
+	else:
+		print 'empty ... \n'
+
+
+def save_html(name, soup):
+	string = str(soup)
+	# string = pre_deal(string)
+	w_file = open('../fenci/code/' + name + '.txt', 'wb')
+ 	w_file.write(string)
+	w_file.close()
+
+
+def save_contents(name,string):
+	w_file = open('../fenci/code/words_' + name + '.txt', 'w')
+ 	w_file.write(string)
+	w_file.close()
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+	# lines = open('url3.txt', 'r').readlines()
+	lines = ['baidu.com', 'taobao.com', 'bbs.yes58.net', 'bbs.ghtt.com', 'bbs.runsky.com']
+	print lines
+	# i = 111
+	for domain in lines:
+		string = ''
+		url = 'http://' + domain.strip()
+		try:
+			html = urllib2.urlopen(url).read()
+			soup = BeautifulSoup(html, 'lxml')
+		except socket.timeout, e:
+			print url
+			print "socket timeout"
+			continue
+		except Exception, e:
+			print url
+			print e.message
+			continue
+		save_html(str(i), soup)
+		# string = pre_deal(str(soup))
+		# save_contents(str(i),string)
+		i = i + 1
+

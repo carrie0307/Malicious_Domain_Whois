@@ -1,0 +1,890 @@
+ent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1063, in decode
+    indent_contents, eventual_encoding, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1126, in decode_contents
+    formatter))
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 1035, in decode
+    text = self.format_string(val, formatter)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 160, in format_string
+    output = formatter(s)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 117, in substitute_xml
+    ns, EntitySubstitution.substitute_xml)
+  File "/usr/lib/python2.7/dist-packages/bs4/element.py", line 101, in _substitute_if_appropriate
+    if (isinstance(ns, NavigableString)
+RuntimeError: maximum recursion depth exceeded while calling a Python object
+
+

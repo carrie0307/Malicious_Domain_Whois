@@ -1,0 +1,178 @@
+urllib2.URLError: <urlopen error [Errno -5] No address associated with hostname>
+gd8023.com,
+
+'域名无关联地址 ...
+
+
+<urlopen error [Errno 22] Invalid argument>
+域名错误  124808
+
+urllib2.URLError: <urlopen error timed out>
+175.41.30.66 请求超时
+
+关键词为空
+
+
+45.35.75.210
+480849
+域名错误 ... 
+480894
+域名错误 ... 
+5577tk.com
+45.35.75.210	keywords: 
+480849	keywords: -2
+480894	keywords: -2
+encoding error : input conversion failed due to input error, bytes 0xA8 0x4B 0xCC 0xD8
+encoding error : input conversion failed due to input error, bytes 0xA8 0x4B 0xCC 0xD8
+encoding error : input conversion failed due to input error, bytes 0xA8 0x4B 0xCC 0xD8
+568vn.com
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.337 seconds.
+Prefix dict has been built succesfully.
+5577tk.com	keywords: 图库,开奖,马会,黑体,澳门
+56guanjia.com
+568vn.com	keywords: 威尼斯人,投注,娱乐城,博彩,游戏
+5700ka.com
+56guanjia.com	keywords: 单击,宋体,帮助,管理员,站点
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 161, in <lambda>
+    html_download_fun=lambda :html_downloader(domain_queue,temp_queue)
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 120, in html_downloader
+    content = download_htmlpage(domain=domain, timeout=3)
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 65, in download_htmlpage
+    res = urllib2.urlopen(url)
+  File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1200, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1127, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+timeout: timed out
+
+
+encoding error : input conversion failed due to input error, bytes 0xA8 0x4B 0xCC 0xD8
+encoding error : input conversion failed due to input error, bytes 0xA8 0x4B 0xCC 0xD8
+encoding error : input conversion failed due to input error, bytes 0xA8 0x4B 0xCC 0xD8
+
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 166, in <lambda>
+    html_download_fun=lambda :html_downloader(domain_queue,temp_queue)
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 122, in html_downloader
+    content = download_htmlpage(domain=domain, timeout=3)
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 65, in download_htmlpage
+    res = urllib2.urlopen(url)
+  File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1200, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1127, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+
+
+
+00001913.cn
+0001pay.com
+0003666.cc
+
+HTTP错误
+
+
+encoding error : input conversion failed due to input error, bytes 0x9B 0x5F 0xBA 0xEF
+encoding error : input conversion failed due to input error, bytes 0x9B 0x5F 0xBA 0xEF
+encoding error : input conversion failed due to input error, bytes 0x9B 0x5F 0xBA 0xEF
+
+
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 178, in <lambda>
+    html_download_fun=lambda :html_downloader(domain_queue,temp_queue)
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 132, in html_downloader
+    content = download_htmlpage(domain=domain, timeout=3)
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 72, in download_htmlpage
+    if str(e) == '<urlopen error [Errno -5] No address associated with hostname>':
+TypeError: __str__() takes no arguments (1 given)
+
+
+
+except Exception, e:
+        print e
+        message = str(e)
+        if message == '<urlopen error [Errno -5] No address associated with hostname>':
+            print '域名无关联地址 ...'
+            return '-1'
+        elif message == '<urlopen error [Errno 22] Invalid argument>':
+            print '域名错误 ... '
+            return '-2'
+        elif message == '<urlopen error timed out>':
+            print '请求超时 ...'
+            return '-3'
+        elif message == 'HTTP Error 400: Bad Request':
+            print 'HTTP 400错误 ...'
+            return '-4'
+        elif message == 'HTTP Error 502: Bad Gateway':
+            print 'HTTP 502错误 ...'
+            return '-5'
+        elif message == 'timed out':
+            print '请求超时 ...'
+            return '-3'
+        elif message == '<urlopen error [Errno -3] Temporary failure in name resolution>':
+            print 'Wrong ...'
+            return '-6'
+        else:
+            print domain
+    try:
+        print content
+    except:
+        print domain
+        print '+++++++++++++++++++++++++++++++'
+
+
+
+
+
+
+

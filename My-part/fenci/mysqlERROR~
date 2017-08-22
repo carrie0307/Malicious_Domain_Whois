@@ -1,0 +1,18 @@
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 164, in <lambda>
+    commit_td.start()
+  File "/home/carrie/cuishiyao/mal_domain/fenci/SpiderEntry.py", line 151, in add_to_db
+    html_parse_fun=lambda :html_parser(temp_queue,result_queue,html_handle)
+  File "main.py", line 43, in commit_keywords
+    cur.execute("REPLACE INTO malicious_info(ID, key_word) VALUES('" + str(hash(domain)) + "' , '" + keywords + "')")
+  File "/usr/local/lib/python2.7/dist-packages/MySQL_python-1.2.5-py2.7-linux-x86_64.egg/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQL_python-1.2.5-py2.7-linux-x86_64.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1205, 'Lock wait timeout exceeded; try restarting transaction')
+

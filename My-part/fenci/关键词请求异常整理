@@ -1,0 +1,23 @@
+if message == '<urlopen error [Errno -5] No address associated with hostname>':
+            # print '域名无关联地址 ...'
+            return '-1'
+elif message == '<urlopen error [Errno 22] Invalid argument>':
+    # print '域名错误 ... '
+    return '-2'
+elif message == '<urlopen error timed out>':
+    # print '请求超时 ...'
+    return '-3'
+elif message == 'HTTP Error 400: Bad Request':
+    # print 'HTTP 400错误 ...'
+    return '-4'
+elif message == 'HTTP Error 502: Bad Gateway':
+    # print 'HTTP 502错误 ...'
+    return '-5'
+elif message == 'timed out':
+   #  print '请求超时 ...'
+    return '-3'
+elif message == '<urlopen error [Errno -3] Temporary failure in name resolution>':
+    # print 'Wrong ...'
+    return '-6'
+else:
+    return '-7'
