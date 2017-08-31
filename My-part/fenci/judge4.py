@@ -94,6 +94,7 @@ def get_title(soup):
 	if soup.title != None:
 	    if soup.title.string != None:
 	        title = soup.title.string.replace('\n', '').replace(' ', '')
+		title = title.replace('\'','-') # 有的title中含有单引号，影响数据库插入，故过滤替换
 	    else:
 	    	title = ''
 	else:
@@ -170,8 +171,9 @@ def commit_result(conn, cur):
             SQL = "UPDATE malicious_info SET flag = flag + %s WHERE ID = %s" %(str(flag), str(hash(domain)))
             cur.execute(SQL)
             conn.commit()
-        except:
-            print domain
+        except Exception, e:
+            print domain + "数据库存储出现异常"
+	    print str(e) + '\n'
             continue
     cur.close()
     conn.close()

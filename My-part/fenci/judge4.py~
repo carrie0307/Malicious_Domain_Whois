@@ -5,8 +5,10 @@
     ID, title, key_words, malicious_keywords, judge_grade,flag最后一位
     （1 赌博，2 色情， 8 请求失败， 9 无法分类）
     大体同judge3.py, 但所添加了对Urllib请求到压缩包的处理，见pre_deal_html(req)
-date:
-    2017.05.20
+
+    修改了数据库打开与关闭方式，可循环运行
+    最终运行版本 2017.08.16
+
 
 '''
 from __future__ import division
@@ -35,14 +37,11 @@ res_q = Queue.Queue()
 thread_num = 10
 
 # 在这里确定恶意域名的ID集合，目前是 judge_flag为2或3
-Select_mal_domain = "(SELECT ID FROM domain_index WHERE judge_flag = '2' or judge_flag = '3')"
+# Select_mal_domain = "(SELECT ID FROM domain_index WHERE judge_flag = '2' or judge_flag = '3')"
 
-def get_domains():
+def get_domains(conn, cur):
     global domain_q
-    conn = MySQLdb.connect("172.26.253.3", "root", "platform", "malicious_domain_sys")
-    cur = conn.cursor()
-    SQL = "SELECT domain FROM domain_index,malicious_info WHERE malicious_info.ID = domain_index.ID AND malicious_info_flag LIKE '%0' LIMIT 2000"
-    # domain_index.malicious_info_flag个位为0的域名即为malicious_info.flag个位为0的域名
+    SQL = "SELECT domain from domain_index where ID not in (select ID from malicious_info) LIMIT 8000"
     cur.execute(SQL)
     result = cur.fetchall()
     for item in result:
@@ -95,6 +94,7 @@ def get_title(soup):
 	if soup.title != None:
 	    if soup.title.string != None:
 	        title = soup.title.string.replace('\n', '').replace(' ', '')
+		title = title.replace('\'','-') # 有的title中含有单引号，影响数据库插入，故过滤替换
 	    else:
 	    	title = ''
 	else:
@@ -155,17 +155,12 @@ def judge_grade(domain, title, flag, keywords, count, rate, malicious_keywords):
     res_q.put([domain, title, keywords, malicious_keywords, grade, flag])
 
 
-
-
-
-conn = MySQLdb.connect('172.26.253.3', 'root', 'platform', 'malicious_domain_sys', charset = 'utf8')
-cur = conn.cursor()
-def commit_result():
-    global conn, cur
+def commit_result(conn, cur):
+    # global conn, cur
     global res_q
     while True:
         try:
-            domain, title, keywords, malicious_keywords, grade, flag = res_q.get(timeout=100)
+            domain, title, keywords, malicious_keywords, grade, flag = res_q.get(timeout=300)
         except Queue.Empty:
             break
        #  SQL = "REPLACE INTO malicious_info(ID, title, key_word, malicious_keywords, judge_grade) VALUES('" + str(hash(domain)) + "', '" + title + "', '" + keywords + "', '" + malicious_keywords + "' , '" + str(grade) + "')"
@@ -176,8 +171,9 @@ def commit_result():
             SQL = "UPDATE malicious_info SET flag = flag + %s WHERE ID = %s" %(str(flag), str(hash(domain)))
             cur.execute(SQL)
             conn.commit()
-        except:
-            print domain
+        except Exception, e:
+            print domain + "数据库存储出现异常"
+	    print str(e) + '\n'
             continue
     cur.close()
     conn.close()
@@ -186,7 +182,9 @@ def commit_result():
 
 
 def start_evrything():
-    get_domains()
+    conn = MySQLdb.connect('172.26.253.3', 'root', 'platform', 'malicious_domain_sys', charset = 'utf8')
+    cur = conn.cursor()
+    get_domains(conn, cur)
     get_html_td = []
     for _ in range(thread_num):
         get_html_td.append(threading.Thread(target=download_htmlpage))
@@ -195,7 +193,7 @@ def start_evrything():
     sleep(5)
     html_deal_td = threading.Thread(target=judge_type)
     html_deal_td.start()
-    save_db_td = threading.Thread(target=commit_result)
+    save_db_td = threading.Thread(target=commit_result, args=(conn, cur))
     save_db_td.start()
     save_db_td.join()
 
@@ -203,5 +201,9 @@ def start_evrything():
 
 
 if __name__ == '__main__':
-    start_evrything()
+    while True:
+        start_evrything()
+        print 'sleeping ...'
+        sleep(360)
+        print 'running ...'
     # get_domains()
